@@ -36,7 +36,7 @@ public class DineInLineV1 {
 
 //        User is prompted with if user wants to view the menu
         while (!userViewMenuResponse.equals("n")) {
-            System.out.println("View Food Fave Console Menu ([Y] for yes or [N] for no) ?");
+            System.out.println("View DineInLine Console Menu ([Y] for yes or [N] for no) ?");
             userViewMenuResponse = scanner.next().toLowerCase();
 
             if (userViewMenuResponse.equals("y")){
